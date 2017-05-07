@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.partcrime.agung.icebreakingiak.ActivityDepan">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imageView"
+        android:src="@drawable/background"
+        android:scaleType="centerCrop"
+        />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/rusa"
+        android:id="@+id/imageView3"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/button"
+        android:paddingTop="35dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click me in"
+        android:layout_centerHorizontal="true"
+        android:textSize="55px"
+        android:textColor="#83ed71"
+        android:paddingTop="25dp"
+        android:id="@+id/text"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/text"
+        android:text="HERE!"
+        android:backgroundTint="#0d5379"
+        android:textColor="#ffffff"
+        android:id="@+id/button" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DEER Corp"
+        android:textSize="55px"
+        android:textColor="#ffffff"
+        android:marginTop="25dp"
+        android:id="@+id/textView"
+        android:layout_below="@+id/imageView3"
+        android:layout_alignRight="@+id/text"
+        android:layout_alignEnd="@+id/text" />
+
+</RelativeLayout>
